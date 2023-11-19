@@ -1,0 +1,133 @@
+.body {
+  background-image: linear-gradient(135deg, #000080 10%, #000080 100%);
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  zoom: 1; /* Lock the zoom option */
+}
+#questions {
+  max-height: 100px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.box-forms {
+  margin: 0 auto;
+  width: 100%;
+  background: #0e3548;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex: 1 1 100%;
+  align-items: stretch;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #090b6f85;
+  height: 100vh;
+}
+
+.box-forms .left {
+  flex: 1;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.box-forms .right {
+  flex: 1;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.heads {
+  color: #2e2525;
+}
+
+.box-forms .right .part {
+  background-color: aqua;
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+audio {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow: 2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+p {
+  color: #f8f8f8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 0 0 24px;
+}
+
+h2 {
+  color: #ff4411;
+  font-size: 48px;
+  font-family: 'Signika', sans-serif;
+  padding-bottom: 10px;
+}
+
+div.ex1 {
+  overflow-y: scroll;
+  max-width: 100%; /* Make it full width */
+}
+
+div.ex2 {
+  overflow-y: hidden;
+  max-width: 100%; /* Make it full width */
+}
+
+div.ex3 {
+  overflow-y: auto;
+  max-width: 100%; /* Make it full width */
+}
+
+div.ex4 {
+  overflow-y: visible;
+  max-width: 100%; /* Make it full width */
+}
+.box-forms {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.box-forms .left {
+  flex: 1;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.box-forms .right {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto; /* Make the right side scrollable */
+}
+
+/* Rest of your CSS styles... */
+.answer{
+  padding-top: 15px;
+  font-family: sans-serif;
+}
